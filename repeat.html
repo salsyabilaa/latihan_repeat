@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=sc, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        document.write('output 1: <br>')
+        for (let i = 1; i < 11; i++){
+            document.write('*'.repeat(i) + '<br>');
+        }
+        document.write('output 2: <br>')
+        for (let i = 11; i >= 0; i--){
+            document.write('*'.repeat(i) + '<br>');
+        }
+        let tinggi = 10;
+        document.write('output 3: <br>')
+        for(let baris = 0; baris < tinggi; baris++) {
+            document.writeln('&nbsp;'.repeat((tinggi - baris)*2) + '*'.repeat(2 * baris) + '<br>');
+        }
+    </script>
+</body>
+</html>
